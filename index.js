@@ -1,7 +1,6 @@
 'use strict';
 
-var dynamodb = require('dynamodb');
-
+var dynamodb = require('./dynamodb');
 
 dynamodb.listTables({}, function(err, data) {
   if (err) {

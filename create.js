@@ -1,4 +1,4 @@
-var dynamodb = require('dynamodb');
+var dynamodb = require('./dynamodb');
 
 var table = {
   AttributeDefinitions: [ // Defining Primary Key
